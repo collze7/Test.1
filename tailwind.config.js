@@ -29,11 +29,11 @@ module.exports = {
           muted: '#6b7c93',
         }
       },
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-dark': 'linear-gradient(135deg, #0a1628 0%, #1a2942 100%)',
-        'gradient-card': 'linear-gradient(135deg, #1a2942 0%, #243654 100%)',
-      },
+     backgroundImage: {
+  'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+  'gradient-dark': 'linear-gradient(135deg, theme("colors.background.dark") 0%, theme("colors.background.card") 100%)',
+  'gradient-card': 'linear-gradient(135deg, theme("colors.background.card") 0%, theme("colors.background.hover") 100%)',
+},
       boxShadow: {
         'glow': '0 0 20px rgba(74, 144, 226, 0.3)',
         'card': '0 4px 20px rgba(0, 0, 0, 0.3)',
